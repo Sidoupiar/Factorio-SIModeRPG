@@ -17,6 +17,7 @@ SIEventBus
 .Add( SIEvents.on_entity_died , function( event ) end )
 .Add( SIEvents.on_player_died , function( event ) end )
 .Add( SIEvents.on_player_respawned , function( event ) end )
+.Add( SIEvents.on_player_mined_item , function( event ) end )
 .Add( SIEvents.on_research_finished , function( event ) end )
 .Add( SIEvents.on_rocket_launched , function( event ) end )
 .Add( SIEvents.on_sector_scanned , function( event ) end )

@@ -11,6 +11,20 @@ load()
 
 SIGlobal.Create( "commonData" )
 
+SIEventBus
+.Add( SIEvents.on_player_joined_game , function( event ) end )
+.Add( SIEvents.on_player_crafted_item , function( event ) end )
+.Add( SIEvents.on_entity_died , function( event ) end )
+.Add( SIEvents.on_player_died , function( event ) end )
+.Add( SIEvents.on_player_respawned , function( event ) end )
+.Add( SIEvents.on_research_finished , function( event ) end )
+.Add( SIEvents.on_rocket_launched , function( event ) end )
+.Add( SIEvents.on_sector_scanned , function( event ) end )
+.Add( SIEvents.on_player_placed_equipment , function( event ) end )
+.Add( SIEvents.on_player_removed_equipment , function( event ) end )
+
+needlist( "zaction" , "panel_status" )
+
 -- ------------------------------------------------------------------------------------------------
 -- ---------- 公共方法 ----------------------------------------------------------------------------
 -- ------------------------------------------------------------------------------------------------

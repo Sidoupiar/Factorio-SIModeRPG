@@ -24,7 +24,7 @@ SIEventBus
 .Add( SIEvents.on_player_placed_equipment , function( event ) end )
 .Add( SIEvents.on_player_removed_equipment , function( event ) end )
 
-needlist( "zaction" , "panel_status" )
+needlist( "zaction" , "panel_status_force" , "panel_status_player" )
 
 -- ------------------------------------------------------------------------------------------------
 -- ---------- 公共方法 ----------------------------------------------------------------------------
